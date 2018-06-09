@@ -4,7 +4,7 @@
 		module="mongodb$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180609152309"
+		publication="20180609155708"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

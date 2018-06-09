@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180609152307"/>
+		date="20180609155709"/>
 	<dependencies>
 		<module organisation="net.ruippeixotog" name="scala-scraper_2.12">
 			<revision name="2.1.0" status="release" pubdate="20180115031243" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ruippeixotog/scala-scraper" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
@@ -58,7 +58,7 @@
 			</revision>
 		</module>
 		<module organisation="mongodb" name="mongodb_2.12">
-			<revision name="0.1" status="integration" pubdate="20180609152303" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="33">
+			<revision name="0.1" status="integration" pubdate="20180609155708" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="33">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="reactivemongo" name="reactivemongo$sources" conf="compile" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1"/>
 				<artifacts>

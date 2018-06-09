@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/mongo_db" />
+            <option value="$PROJECT_DIR$/mongo_db/project" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/reactive_mongo" />
+            <option value="$PROJECT_DIR$/reactive_mongo/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+        <option name="useSbtShell" value="true" />
+      </SbtProjectSettings>
+    </option>
+    <option name="maximumHeapSize" value="4536" />
+  </component>
+</project>

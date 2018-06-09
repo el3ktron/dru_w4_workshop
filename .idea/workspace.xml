@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd842d8b-9050-495f-b582-92d1dc9e1fa2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mongo_db/src/main/scala/MongoWorkshop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/src/main/scala/daos/CompanyDAO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/src/main/scala/daos/CompanyDAO.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/mongodb/mongodb$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/mongodb/mongodb$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/mongodb/mongodb$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/mongodb/mongodb$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/scala-2.12/resolution-cache/reports/mongodb-mongodb$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo_db/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/mongo_db/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1aac9b0e54846d83aaef.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af0ec684e84d19d4e3b4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reactivemongo/reactivemongo$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reactivemongo/reactivemongo$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reactivemongo/reactivemongo$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reactivemongo/reactivemongo$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/scala-2.12/resolution-cache/reports/reactivemongo-reactivemongo$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/reactive_mongo/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/mongo_db/target/" />
+    <ignored path="$PROJECT_DIR$/reactive_mongo/target/" />
+    <ignored path="$PROJECT_DIR$/mongo_db/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/mongo_db/project/target/" />
+    <ignored path="$PROJECT_DIR$/reactive_mongo/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/reactive_mongo/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CompanyDAO.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mongo_db/src/main/scala/daos/CompanyDAO.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#14#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoWorkshop.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mongo_db/src/main/scala/MongoWorkshop.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mongo_db/src/main/scala/daos/CompanyDAO.scala" />
+        <option value="$PROJECT_DIR$/mongo_db/src/main/scala/MongoWorkshop.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="52" />
+    <option name="width" value="1280" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo_db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo_db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo_db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo_db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo_db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dru_w4_workshop_7406" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dru_w4_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo_db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MongoWorkshop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MongoWorkshop" />
+      <module name="mongo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MongoWorkshop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="dru_w4_workshop" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="dru_w4_workshop" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mongo" />
+                <option name="path" value="$PROJECT_DIR$/mongo_db" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="reactive_mongo" />
+                <option name="path" value="$PROJECT_DIR$/reactive_mongo" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="dru_w4_workshop-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mongo-build" />
+                <option name="path" value="$PROJECT_DIR$/mongo_db/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="reactive_mongo-build" />
+                <option name="path" value="$PROJECT_DIR$/reactive_mongo/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="510490096" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2096222171" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../DHIRED/dhired" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd842d8b-9050-495f-b582-92d1dc9e1fa2" name="Default" comment="" />
+      <created>1528548970941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528548970941</updated>
+      <workItem from="1528548972714" duration="1585000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1585000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="778" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Build" weight="0.32892805" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.12/srcs/mongo-scala-driver_2.12-2.3.0-sources.jar!/org/mongodb/scala/MongoCollection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="409" column="6" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo_db/src/main/scala/daos/CompanyDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#14#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo_db/src/main/scala/MongoWorkshop.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
